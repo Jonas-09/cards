@@ -1,0 +1,81 @@
+/* Your card CSS file */
+.card-category{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* card prodcut */
+
+.card-product{
+  display: flex;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-product-image-sz{
+  width: 120px;
+  height: 120px;
+  padding: 12px 0px 12px 0px;
+}
+
+.card-product h2{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.card-product p{
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.product-description{
+  align-content: center;
+}
+
+/* card trip */
+
+.card-trip{
+  /* display: flex; */
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-trip-img{
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.card-trip-description{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-left: 10;
+  padding-right: 10;
+  position:relative;
+}
+
+.card-trip-price{
+  font-weight: 600;
+}
+
+.avatar-rounded{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.card-trip-avatar{
+  position: absolute;
+  bottom: 85px;
+  right: 45px;
+}
